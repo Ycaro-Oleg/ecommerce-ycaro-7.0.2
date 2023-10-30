@@ -58,6 +58,7 @@ end
 group :test do
   
   gem "capybara"
+  gem 'webmock'
   gem "selenium-webdriver"
   gem "webdrivers"
   gem 'database_cleaner' #Limpa o banco para que nao tenha dados comprometedores ao teste
